@@ -1,4 +1,4 @@
-# Hi... I'm Yeb Timotheous <img src="https://user-images.githubusercontent.com/72663882/171687151-bb31c996-c9d2-49c8-b593-734946893b23.gif" alt="waving hand gif" aria-hidden="true" width="40" />
+# Hi... I'm Yeb  <img src="https://user-images.githubusercontent.com/72663882/171687151-bb31c996-c9d2-49c8-b593-734946893b23.gif" alt="waving hand gif" aria-hidden="true" width="40" />
 
 A **Full Stack Blockchain Developer** with expertise in **Frontend Development**, **Backend Infrastructure**, and **Smart Contract Auditing**. Advocate for building **decentralized**, **secure** and **innovative** Web3 applications and DeFi solutions. Passionate about creating the future of finance through blockchain technology.
 
