@@ -9,7 +9,7 @@ A **Full Stack Blockchain Developer** with expertise in **Frontend Development**
 
 [- Currently working on <a href="#">Multi-Chain DeFi Portfolio Manager</a>]
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Crystal%20Ball.png" alt="Crystal Ball" width="30" height="30" /> Blockchain Expertise 
+## ⛓️ **Blockchain Expertise** 
 
 ### **Layer 1 Blockchains**
 - 🔷 **Ethereum** - Smart Contracts, DApps, DeFi Protocols, ERC Standards
@@ -105,7 +105,7 @@ A **Full Stack Blockchain Developer** with expertise in **Frontend Development**
 ### **🔍 Smart Contract Auditing & Security**
 [![Security Skills](https://skillicons.dev/icons?i=solidity,rust,github,vscode&perline=4)](#)
 
-- **Audit Expertise**: 50+ smart contract security assessments across multiple chains
+- **Audit Expertise**: 51 smart contract security assessments across multiple chains
 - **Security Tools**: Slither, MythX, Echidna, Foundry fuzzing, Manual code review
 - **Vulnerability Assessment**: Reentrancy, flash loan attacks, MEV protection, access control
 - **Formal Verification**: Mathematical proofs for critical DeFi protocols
@@ -144,7 +144,7 @@ A **Full Stack Blockchain Developer** with expertise in **Frontend Development**
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Open%20Book.png" alt="Book" width="30" height="30" /> Web3 Contributions & Achievements
 
-- 📝 **Smart Contract Auditor** for emerging DeFi protocols (50+ audits completed)
+- 📝 **Smart Contract Auditor** for emerging DeFi protocols (51 audits completed)
 - 🎓 **Blockchain Education** content creator and workshop facilitator
 - 🤝 **Open Source Contributor** to major Web3 libraries and blockchain tools
 - 💬 **Community Builder** in Ethereum, Solana, and Cardano developer communities
