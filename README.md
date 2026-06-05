@@ -1,44 +1,38 @@
 # Hi, I'm Yeb 👋
 
-📍 **Accra ↔ Remote** | 🤖 **Smart Contract Auditor** | 🚀 **Staff Blockchain Engineer**
+📍 **Remote** | 🤖 **Security Researcher** | 🚀 **Blockchain Engineer**
 
-Now building next-generation Web3 infrastructure; maintaining open-source security tools and DeFi protocol primitives.
+Now building systems-level Web3 infrastructure and developer tooling; specializing in decentralized protocol execution, mempool analysis, and automated security scanners.
 
+![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![C](https://img.shields.io/badge/-C-A8B9CC?style=flat-square&logo=c&logoColor=black)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Bash](https://img.shields.io/badge/-Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
 ![Solidity](https://img.shields.io/badge/-Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
 ![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![Move](https://img.shields.io/badge/-Move-000000?style=flat-square&logo=sui&logoColor=white)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Foundry](https://img.shields.io/badge/-Foundry-121212?style=flat-square&logo=ethereum&logoColor=white)
-![Anchor](https://img.shields.io/badge/-Anchor-9945FF?style=flat-square&logo=solana&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 ## Start Here
 
-- 🛡️ **[sec-scanner](https://github.com/yebtimotheous/sec-scanner)** (4.5k+ stars) - Automated Solidity AST linter and security scanner for CI/CD pipelines
-- 🦞 **[dex-aggregator](https://github.com/yebtimotheous/dex-aggregator)** (3.2k+ stars) - High-performance multi-chain routing protocol supporting EVM & Move
-- 🎓 **[audit-kit](https://github.com/yebtimotheous/audit-kit)** (1.9k+ stars) - Invariant and fuzzing templates for Foundry & Echidna audits
-- 💧 **[xrpl-micropay](https://github.com/yebtimotheous/xrpl-micropay)** (1.2k+ stars) - Real-time payment channel integration for high-frequency trading
+- ⚡ **[evm-c](https://github.com/yebtimotheous/evm-c)** (2.8k+ stars) - Lightweight EVM execution interpreter written in C for high-speed local simulations
+- 🛡️ **[mev-guard](https://github.com/yebtimotheous/mev-guard)** (2.1k+ stars) - High-throughput Go daemon for real-time mempool tracking and frontrun mitigation
+- 🐍 **[contract-fuzzer](https://github.com/yebtimotheous/contract-fuzzer)** (1.6k+ stars) - Python-based invariant generation and contract fuzzing framework
+- 🐚 **[bash-web3-tools](https://github.com/yebtimotheous/bash-web3-tools)** (980+ stars) - Unix shell utility wrappers for querying JSON-RPC nodes directly from the CLI
 
 ## Current Projects
 
-### Smart Contract Security & Analysis
-- 🛡️ **[sec-scanner](https://github.com/yebtimotheous/sec-scanner)** - Automated Solidity AST linter and security scanner
-- 🧪 **[audit-kit](https://github.com/yebtimotheous/audit-kit)** - Invariant templates for Foundry & Echidna audits
-- 🛑 **[mev-guard](https://github.com/yebtimotheous/mev-guard)** - Flashloan frontrun and sandwich attack protection middleware
-- 📜 **[formal-verify](https://github.com/yebtimotheous/formal-verify)** - Mathematical proofs and Halmos verification scripts for complex AMMs
+### Systems & Blockchain Core
+- ⚡ **[evm-c](https://github.com/yebtimotheous/evm-c)** - Ethereum Virtual Machine execution interpreter in C
+- 🌐 **[go-client-proxy](https://github.com/yebtimotheous/go-client-proxy)** - Latency-aware JSON-RPC node router and failover daemon written in Go
+- 🦀 **[solana-bridge](https://github.com/yebtimotheous/solana-bridge)** - Secure cross-chain bridge client facilitating low-level message verification
 
-### Core DeFi & Primitives
-- 🦞 **[dex-aggregator](https://github.com/yebtimotheous/dex-aggregator)** - High-performance multi-chain routing engine
-- 🚜 **[yield-optimizer](https://github.com/yebtimotheous/yield-optimizer)** - Cross-network auto-compounding vault manager
-- ⚓ **[sol-staking](https://github.com/yebtimotheous/sol-staking)** - Liquid staking program built on Solana Anchor with zero fees
-- 📊 **[lending-protocol](https://github.com/yebtimotheous/lending-protocol)** - Plutus-based collateralized lending protocol for Cardano
+### Security & Mempool Analysis
+- 🛡️ **[mev-guard](https://github.com/yebtimotheous/mev-guard)** - Real-time Go daemon for sandwich attack protection
+- 🐍 **[contract-fuzzer](https://github.com/yebtimotheous/contract-fuzzer)** - Python framework for automated smart contract vulnerability detection
+- 🔍 **[ast-scanner](https://github.com/yebtimotheous/ast-scanner)** - AST parser in Go for identifying vulnerable Solidity code patterns prior to compile
 
-### Layer 1 & Client SDKs
-- 💧 **[xrpl-micropay](https://github.com/yebtimotheous/xrpl-micropay)** - High-frequency XRP Ledger payment channels
-- 🌊 **[sui-launchpad](https://github.com/yebtimotheous/sui-launchpad)** - Move token launcher with fair-launch and initial liquidity pooling
-- ⚡ **[hydra-client](https://github.com/yebtimotheous/hydra-client)** - Low-latency state channel integration client for Cardano Hydra
-- 🔷 **[ethers-failover](https://github.com/yebtimotheous/ethers-failover)** - Latency-aware Web3 provider router and multi-node RPC proxy
+### CLI & Shell Tooling
+- 🐚 **[bash-web3-tools](https://github.com/yebtimotheous/bash-web3-tools)** - A collection of Unix shell wrappers for interacting with Ethereum RPC nodes
+- 📦 **[contract-deployer](https://github.com/yebtimotheous/contract-deployer)** - Bash CLI tool for single-command smart contract compilation and deployment verification
 
 ---
 
