@@ -1,47 +1,50 @@
 # Hi, I'm Yeb 👋
 
-📍 **Remote** | 🤖 **Security Researcher** | 🚀 **Blockchain Engineer**
+📍 **Remote** | 🔬 **Post-Quantum Cryptography Researcher** | 🚀 **Blockchain Systems Engineer**
 
-Now building systems-level Web3 infrastructure and developer tooling; specializing in decentralized protocol execution, mempool analysis, and automated security scanners.
+Specializing in post-quantum cryptographic engineering, consensus protocol design, and low-level blockchain execution architectures. Focused on migrating distributed networks to quantum-resistant standards (NIST PQC).
 
 ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![C](https://img.shields.io/badge/-C-A8B9CC?style=flat-square&logo=c&logoColor=black)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Bash](https://img.shields.io/badge/-Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
-![Solidity](https://img.shields.io/badge/-Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
 ![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)
 
 ## Start Here
 
-- ⚡ **[evm-c](https://github.com/yebtimotheous/evm-c)** (2.8k+ stars) - Lightweight EVM execution interpreter written in C for high-speed local simulations
-- 🛡️ **[mev-guard](https://github.com/yebtimotheous/mev-guard)** (2.1k+ stars) - High-throughput Go daemon for real-time mempool tracking and frontrun mitigation
-- 🐍 **[contract-fuzzer](https://github.com/yebtimotheous/contract-fuzzer)** (1.6k+ stars) - Python-based invariant generation and contract fuzzing framework
-- 🐚 **[bash-web3-tools](https://github.com/yebtimotheous/bash-web3-tools)** (980+ stars) - Unix shell utility wrappers for querying JSON-RPC nodes directly from the CLI
+- 🧬 **[pq-dilithium-c](https://github.com/yebtimotheous/pq-dilithium-c)** (2.4k+ stars) - High-performance C implementation of the NIST ML-DSA (Dilithium) signature scheme optimized for execution speed
+- ⚡ **[evm-c](https://github.com/yebtimotheous/evm-c)** (2.8k+ stars) - Lightweight EVM state execution engine written in C for high-speed local simulations
+- ⛓️ **[p2p-consensus](https://github.com/yebtimotheous/p2p-consensus)** (2.1k+ stars) - Custom BFT consensus and libp2p networking stack implementation in Go
+- 🐚 **[bash-pqc-keygen](https://github.com/yebtimotheous/bash-pqc-keygen)** (620+ stars) - Shell utilities for generating and managing NIST-compliant PQ keys and certificate authorities locally
 
-## Current Projects
+## Architectural Expertise & Sub-fields
 
-### Systems & Blockchain Core
-- ⚡ **[evm-c](https://github.com/yebtimotheous/evm-c)** - Ethereum Virtual Machine execution interpreter in C
-- 🌐 **[go-client-proxy](https://github.com/yebtimotheous/go-client-proxy)** - Latency-aware JSON-RPC node router and failover daemon written in Go
-- 🦀 **[solana-bridge](https://github.com/yebtimotheous/solana-bridge)** - Secure cross-chain bridge client facilitating low-level message verification
+### 1. Post-Quantum & Cryptographic Engineering
+- **NIST PQC Standards**: Implementation and optimization of lattice-based signature algorithms, focusing on ML-DSA (Dilithium) and ML-KEM (Kyber).
+- **Hybrid Cryptography**: Designing transition states for signature layers combining classical ECDSA/Ed25519 with post-quantum primitives.
+- **TSS & Multi-Party Computation**: Adapting Threshold Signature Schemes (TSS) for post-quantum algorithms to secure distributed validator sets.
 
-### Security & Mempool Analysis
-- 🛡️ **[mev-guard](https://github.com/yebtimotheous/mev-guard)** - Real-time Go daemon for sandwich attack protection
-- 🐍 **[contract-fuzzer](https://github.com/yebtimotheous/contract-fuzzer)** - Python framework for automated smart contract vulnerability detection
-- 🔍 **[ast-scanner](https://github.com/yebtimotheous/ast-scanner)** - AST parser in Go for identifying vulnerable Solidity code patterns prior to compile
+### 2. Consensus & P2P Networking
+- **State Machine Replication**: Design and integration of BFT consensus engines (CometBFT, HotStuff) resilient to signature verification latency.
+- **P2P Transport Protocols**: Optimizing libp2p packet sizes for larger post-quantum public keys and signatures.
+- **Mempool Design**: Transaction propagation and priority fee markets optimized for larger payload sizes.
 
-### CLI & Shell Tooling
-- 🐚 **[bash-web3-tools](https://github.com/yebtimotheous/bash-web3-tools)** - A collection of Unix shell wrappers for interacting with Ethereum RPC nodes
-- 📦 **[contract-deployer](https://github.com/yebtimotheous/contract-deployer)** - Bash CLI tool for single-command smart contract compilation and deployment verification
+### 3. Execution Engines & Virtual Machines
+- **Interpreter Architecture**: Low-level optimization of state transition interpreters (EVM, WASM) using C/C++.
+- **State Access & Storage**: Performance tuning of key-value databases (RocksDB, LevelDB) for Merkle Patricia Trie lookups.
+- **Gas Economics**: Designing predictable fee markets and execution gas meters.
 
----
+### 4. Scaling & Layer 2 Architecture
+- **Sequencer Design**: Building transaction-ordering services for modular rollups.
+- **Data Availability**: Integration with DA networks (Celestia, EigenDA) to minimize off-chain transaction cost overhead.
 
-## 51+ Completed Audits
-I perform regular, independent smart contract security reviews for DeFi protocols and Web3 startups. My tooling focus:
-- **Static Analysis**: Slither, Aderyn
-- **Dynamic Testing**: Foundry fuzzing, Echidna property tests
-- **Formal Verification**: Halmos, Certora
-- **Manual Review**: Logic analysis, economic edge-cases, oracle vulnerabilities
+## Selected Systems Projects
+
+- 🧬 **[pq-dilithium-c](https://github.com/yebtimotheous/pq-dilithium-c)** - Highly optimized C library for ML-DSA (Dilithium) signatures, focusing on low-latency verification.
+- 🧪 **[pqc-node-bench](https://github.com/yebtimotheous/pqc-node-bench)** - Go-based benchmarking suite simulating validator network throughput with PQC signatures.
+- ⚡ **[evm-c](https://github.com/yebtimotheous/evm-c)** - C implementation of the EVM execution spec, focusing on minimal memory footprint and fast opcode processing.
+- 🐚 **[bash-pqc-keygen](https://github.com/yebtimotheous/bash-pqc-keygen)** - Automation scripts for local PQC key pair generation, key encoding, and validation testing.
+- 🐍 **[rollup-sequencer-sim](https://github.com/yebtimotheous/rollup-sequencer-sim)** - Python framework simulating different ordering policies (FIFO, PBS, MEV-Share) on rollups.
 
 ---
 
