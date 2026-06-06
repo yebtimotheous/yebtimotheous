@@ -10,28 +10,28 @@ Specializing in low-level implementations of NIST PQC standards (FIPS 203/204), 
 ## Active Repositories
 
 ### Post-Quantum & Cryptographic Engineering
-* **[pq-dilithium-c](https://github.com/yebtimotheous/pq-dilithium-c)** `C` (2.4k★) — High-performance C implementation of the NIST ML-DSA (Dilithium) signature scheme optimized for execution speed.
-* **[pqc-rpc-proxy](https://github.com/yebtimotheous/pqc-rpc-proxy)** `Go` (1.8k★) — Hybrid post-quantum TLS proxy securing validator JSON-RPC connections using native ML-KEM-768/X25519 key agreements.
-* **[hybrid-hsm-enclave](https://github.com/yebtimotheous/hybrid-hsm-enclave)** `C++` (1.4k★) — HSM wallet enclave simulator using `mlock` page locking, guard pages (`mprotect`), and constant-time hybrid ECDSA/ML-DSA signature verification.
-* **[bash-pqc-keygen](https://github.com/yebtimotheous/bash-pqc-keygen)** `Go/Shell` (620★) — Automated local PQC key generation and root certificate authority (CA) utility suite.
+* **[pq-dilithium-c](https://github.com/yebtimothy/pq-dilithium-c)** `C` (2.4k★) — High-performance C implementation of the NIST ML-DSA (Dilithium) signature scheme optimized for execution speed.
+* **[pqc-rpc-proxy](https://github.com/yebtimothy/pqc-rpc-proxy)** `Go` (1.8k★) — Hybrid post-quantum TLS proxy securing validator JSON-RPC connections using native ML-KEM-768/X25519 key agreements.
+* **[hybrid-hsm-enclave](https://github.com/yebtimothy/hybrid-hsm-enclave)** `C++` (1.4k★) — HSM wallet enclave simulator using `mlock` page locking, guard pages (`mprotect`), and constant-time hybrid ECDSA/ML-DSA signature verification.
+* **[bash-pqc-keygen](https://github.com/yebtimothy/bash-pqc-keygen)** `Go/Shell` (620★) — Automated local PQC key generation and root certificate authority (CA) utility suite.
 
 ### Zero-Knowledge & Consensus Systems
-* **[lattice-zk-prover](https://github.com/yebtimotheous/lattice-zk-prover)** `C++/OpenMP` (1.9k★) — SIMD-parallelized polynomial commitment solver in negacyclic quotient rings $R_q = \mathbb{Z}_q[x] / (x^n + 1)$ for lattice-based ZK-provers.
-* **[pqc-sig-aggregator](https://github.com/yebtimotheous/pqc-sig-aggregator)** `Go` (1.6k★) — Decoupled consensus signature aggregation simulator evaluating Merkle registries, bitmaps, and recursive ZK-SNARK pre-commit compressions.
-* **[p2p-consensus](https://github.com/yebtimotheous/p2p-consensus)** `Go` (2.1k★) — Custom BFT consensus engine and libp2p networking stack optimized for larger PQC key payload propagation.
+* **[lattice-zk-prover](https://github.com/yebtimothy/lattice-zk-prover)** `C++/OpenMP` (1.9k★) — SIMD-parallelized polynomial commitment solver in negacyclic quotient rings $R_q = \mathbb{Z}_q[x] / (x^n + 1)$ for lattice-based ZK-provers.
+* **[pqc-sig-aggregator](https://github.com/yebtimothy/pqc-sig-aggregator)** `Go` (1.6k★) — Decoupled consensus signature aggregation simulator evaluating Merkle registries, bitmaps, and recursive ZK-SNARK pre-commit compressions.
+* **[p2p-consensus](https://github.com/yebtimothy/p2p-consensus)** `Go` (2.1k★) — Custom BFT consensus engine and libp2p networking stack optimized for larger PQC key payload propagation.
 
 ### Virtual Machines & Execution
-* **[evm-c](https://github.com/yebtimotheous/evm-c)** `C` (2.8k★) — Lightweight, zero-dependency EVM state transition execution interpreter written in pure C.
-* **[pqc-node-bench](https://github.com/yebtimotheous/pqc-node-bench)** `Go` (1.2k★) — Benchmark suite measuring validator throughput and network latency under post-quantum signature verification overhead.
-* **[rollup-sequencer-sim](https://github.com/yebtimotheous/rollup-sequencer-sim)** `Python` (980★) — Simulator evaluating modular rollup transaction-ordering policies (FIFO, PBS, MEV-Share).
+* **[evm-c](https://github.com/yebtimothy/evm-c)** `C` (2.8k★) — Lightweight, zero-dependency EVM state transition execution interpreter written in pure C.
+* **[pqc-node-bench](https://github.com/yebtimothy/pqc-node-bench)** `Go` (1.2k★) — Benchmark suite measuring validator throughput and network latency under post-quantum signature verification overhead.
+* **[rollup-sequencer-sim](https://github.com/yebtimothy/rollup-sequencer-sim)** `Python` (980★) — Simulator evaluating modular rollup transaction-ordering policies (FIFO, PBS, MEV-Share).
 
 ---
 
 ## Active Research & R&D
 
-* **[pq-hd-wallet](https://github.com/yebtimotheous/pq-hd-wallet)** `C++` — Noise-stable Hierarchical Deterministic (HD) key derivation for lattice-based public keys (BIP-32 PQC extension) utilizing Secure Enclaves.
-* **[goldilocks-simd-ntt](https://github.com/yebtimotheous/goldilocks-simd-ntt)** `C++/AVX-512` — SIMD-vectorized Goldilocks field $\mathbb{F}_p$ ($p=2^{64}-2^{32}+1$) solver executing accelerated NTTs via Shoup reduction for L2 recursive provers.
-* **[pq-threshold-mempool](https://github.com/yebtimotheous/pq-threshold-mempool)** `C++` — Post-quantum threshold decryption engine (Threshold ML-KEM-768) utilizing noise-flooding and Lagrange interpolation to mitigate front-running (MEV) in validator pools.
+* **[pq-hd-wallet](https://github.com/yebtimothy/pq-hd-wallet)** `C++` — Noise-stable Hierarchical Deterministic (HD) key derivation for lattice-based public keys (BIP-32 PQC extension) utilizing Secure Enclaves.
+* **[goldilocks-simd-ntt](https://github.com/yebtimothy/goldilocks-simd-ntt)** `C++/AVX-512` — SIMD-vectorized Goldilocks field $\mathbb{F}_p$ ($p=2^{64}-2^{32}+1$) solver executing accelerated NTTs via Shoup reduction for L2 recursive provers.
+* **[pq-threshold-mempool](https://github.com/yebtimothy/pq-threshold-mempool)** `C++` — Post-quantum threshold decryption engine (Threshold ML-KEM-768) utilizing noise-flooding and Lagrange interpolation to mitigate front-running (MEV) in validator pools.
 
 ---
 
