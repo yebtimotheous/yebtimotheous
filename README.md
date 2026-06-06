@@ -1,67 +1,42 @@
-# Hi, I'm Yeb 👋
+# Yeb Timotheous
 
-📍 **Remote** | 🔬 **Post-Quantum Cryptography Researcher** | 🚀 **Blockchain Systems Engineer**
+**Post-Quantum Cryptographic Engineer & Distributed Systems Developer**
+*Remote | yeb.timotheous@proton.me | TG: [@yebtimothy](https://t.me/yebtimothy) | LI: [Yeb Timotheous](https://www.linkedin.com/in/yeb-timotheous/)*
 
-Specializing in post-quantum cryptographic engineering, consensus protocol design, and low-level blockchain execution architectures. Focused on migrating distributed networks to quantum-resistant standards (NIST PQC).
-
-![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![C](https://img.shields.io/badge/-C-A8B9CC?style=flat-square&logo=c&logoColor=black)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Bash](https://img.shields.io/badge/-Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
-![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)
-
-## Start Here
-
-- 🧬 **[pq-dilithium-c](https://github.com/yebtimotheous/pq-dilithium-c)** (2.4k+ stars) - High-performance C implementation of the NIST ML-DSA (Dilithium) signature scheme optimized for execution speed
-- ⚡ **[evm-c](https://github.com/yebtimotheous/evm-c)** (2.8k+ stars) - Lightweight EVM state execution engine written in C for high-speed local simulations
-- ⛓️ **[p2p-consensus](https://github.com/yebtimotheous/p2p-consensus)** (2.1k+ stars) - Custom BFT consensus and libp2p networking stack implementation in Go
-- 🐚 **[bash-pqc-keygen](https://github.com/yebtimotheous/bash-pqc-keygen)** (620+ stars) - Shell utilities for generating and managing NIST-compliant PQ keys and certificate authorities locally
-- 🧪 **[pqc-node-bench](https://github.com/yebtimotheous/pqc-node-bench)** (1.2k+ stars) - Go-based benchmarking suite simulating validator network throughput with PQC signatures
-- 🐍 **[rollup-sequencer-sim](https://github.com/yebtimotheous/rollup-sequencer-sim)** (980+ stars) - Python framework simulating different ordering policies (FIFO, PBS, MEV-Share) on rollups
-- 🔒 **[pqc-rpc-proxy](https://github.com/yebtimotheous/pqc-rpc-proxy)** (1.8k+ stars) - Go-based hybrid post-quantum TLS proxy securing validator RPC connections using ML-KEM-768 key exchange
-- 🛡️ **[hybrid-hsm-enclave](https://github.com/yebtimotheous/hybrid-hsm-enclave)** (1.4k+ stars) - Simulated HSM enclave API in C/C++ implementing constant-time hybrid ECDSA/ML-DSA key signatures
-- 🧩 **[pqc-sig-aggregator](https://github.com/yebtimotheous/pqc-sig-aggregator)** (1.6k+ stars) - Decoupled signature compression and aggregation simulator in Go for ML-DSA validator payloads
-- 🔬 **[lattice-zk-prover](https://github.com/yebtimotheous/lattice-zk-prover)** (1.9k+ stars) - Parallelized C++ math engine computing post-quantum lattice polynomial commitments for ZK proving systems
-
-## Architectural Expertise & Sub-fields
-
-### 1. Post-Quantum & Cryptographic Engineering
-- **NIST PQC Standards**: Implementation and optimization of lattice-based signature algorithms, focusing on ML-DSA (Dilithium) and ML-KEM (Kyber).
-- **Hybrid Cryptography**: Designing transition states for signature layers combining classical ECDSA/Ed25519 with post-quantum primitives.
-- **TSS & Multi-Party Computation**: Adapting Threshold Signature Schemes (TSS) for post-quantum algorithms to secure distributed validator sets.
-
-### 2. Consensus & P2P Networking
-- **State Machine Replication**: Design and integration of BFT consensus engines (CometBFT, HotStuff) resilient to signature verification latency.
-- **P2P Transport Protocols**: Optimizing libp2p packet sizes for larger post-quantum public keys and signatures.
-- **Mempool Design**: Transaction propagation and priority fee markets optimized for larger payload sizes.
-
-### 3. Execution Engines & Virtual Machines
-- **Interpreter Architecture**: Low-level optimization of state transition interpreters (EVM, WASM) using C/C++.
-- **State Access & Storage**: Performance tuning of key-value databases (RocksDB, LevelDB) for Merkle Patricia Trie lookups.
-- **Gas Economics**: Designing predictable fee markets and execution gas meters.
-
-### 4. Scaling & Layer 2 Architecture
-- **Sequencer Design**: Building transaction-ordering services for modular rollups.
-- **Data Availability**: Integration with DA networks (Celestia, EigenDA) to minimize off-chain transaction cost overhead.
-
-## Selected Systems Projects
-
-- 🧬 **[pq-dilithium-c](https://github.com/yebtimotheous/pq-dilithium-c)** - Highly optimized C library for ML-DSA (Dilithium) signatures, focusing on low-latency verification.
-- ⚡ **[evm-c](https://github.com/yebtimotheous/evm-c)** - C implementation of the EVM execution spec, focusing on minimal memory footprint and fast opcode processing.
-- ⛓️ **[p2p-consensus](https://github.com/yebtimotheous/p2p-consensus)** - Go-based custom BFT consensus engine and libp2p networking stack for validator block propagation.
-- 🐚 **[bash-pqc-keygen](https://github.com/yebtimotheous/bash-pqc-keygen)** - Automation scripts for local PQC key pair generation, key encoding, and validation testing.
-- 🧪 **[pqc-node-bench](https://github.com/yebtimotheous/pqc-node-bench)** - Go-based benchmarking suite simulating validator network throughput with PQC signatures.
-- 🐍 **[rollup-sequencer-sim](https://github.com/yebtimotheous/rollup-sequencer-sim)** - Python framework simulating different ordering policies (FIFO, PBS, MEV-Share) on rollups.
-- 🔒 **[pqc-rpc-proxy](https://github.com/yebtimotheous/pqc-rpc-proxy)** - Reverse proxy wrapping blockchain JSON-RPC nodes inside hybrid ML-KEM-768 / ECDH secure TLS tunnels.
-- 🛡️ **[hybrid-hsm-enclave](https://github.com/yebtimotheous/hybrid-hsm-enclave)** - Secure memory enclaves (`mlock`) in C/C++ to verify hybrid classical/PQC signatures with constant-time security.
-- 🧩 **[pqc-sig-aggregator](https://github.com/yebtimotheous/pqc-sig-aggregator)** - Go engine simulating consensus validator signatures aggregation to compress large lattice-based block payloads.
-- 🔬 **[lattice-zk-prover](https://github.com/yebtimotheous/lattice-zk-prover)** - Optimized C++ solver using OpenMP thread parallelization to accelerate lattice-based polynomial commitment computations.
+Specializing in low-level implementations of NIST PQC standards (FIPS 203/204), SIMD-accelerated zero-knowledge provers, and consensus state execution engines.
 
 ---
 
-## Get in Touch
+## Active Repositories
 
-- 📬 **Email**: [yeb.timotheous@proton.me](mailto:yeb.timotheous@proton.me)
-- 💬 **Telegram**: [@yebtimothy](https://t.me/yebtimothy)
-- 💼 **LinkedIn**: [Yeb Timotheous](https://www.linkedin.com/in/yeb-timotheous/)
-- 🐦 **Twitter**: [@yebtimothy](https://twitter.com/yebtimothy)
+### Post-Quantum & Cryptographic Engineering
+* **[pq-dilithium-c](https://github.com/yebtimotheous/pq-dilithium-c)** `C` (2.4k★) — High-performance C implementation of the NIST ML-DSA (Dilithium) signature scheme optimized for execution speed.
+* **[pqc-rpc-proxy](https://github.com/yebtimotheous/pqc-rpc-proxy)** `Go` (1.8k★) — Hybrid post-quantum TLS proxy securing validator JSON-RPC connections using native ML-KEM-768/X25519 key agreements.
+* **[hybrid-hsm-enclave](https://github.com/yebtimotheous/hybrid-hsm-enclave)** `C++` (1.4k★) — HSM wallet enclave simulator using `mlock` page locking, guard pages (`mprotect`), and constant-time hybrid ECDSA/ML-DSA signature verification.
+* **[bash-pqc-keygen](https://github.com/yebtimotheous/bash-pqc-keygen)** `Go/Shell` (620★) — Automated local PQC key generation and root certificate authority (CA) utility suite.
+
+### Zero-Knowledge & Consensus Systems
+* **[lattice-zk-prover](https://github.com/yebtimotheous/lattice-zk-prover)** `C++/OpenMP` (1.9k★) — SIMD-parallelized polynomial commitment solver in negacyclic quotient rings $R_q = \mathbb{Z}_q[x] / (x^n + 1)$ for lattice-based ZK-provers.
+* **[pqc-sig-aggregator](https://github.com/yebtimotheous/pqc-sig-aggregator)** `Go` (1.6k★) — Decoupled consensus signature aggregation simulator evaluating Merkle registries, bitmaps, and recursive ZK-SNARK pre-commit compressions.
+* **[p2p-consensus](https://github.com/yebtimotheous/p2p-consensus)** `Go` (2.1k★) — Custom BFT consensus engine and libp2p networking stack optimized for larger PQC key payload propagation.
+
+### Virtual Machines & Execution
+* **[evm-c](https://github.com/yebtimotheous/evm-c)** `C` (2.8k★) — Lightweight, zero-dependency EVM state transition execution interpreter written in pure C.
+* **[pqc-node-bench](https://github.com/yebtimotheous/pqc-node-bench)** `Go` (1.2k★) — Benchmark suite measuring validator throughput and network latency under post-quantum signature verification overhead.
+* **[rollup-sequencer-sim](https://github.com/yebtimotheous/rollup-sequencer-sim)** `Python` (980★) — Simulator evaluating modular rollup transaction-ordering policies (FIFO, PBS, MEV-Share).
+
+---
+
+## Active Research & R&D
+
+* **[pq-hd-wallet](https://github.com/yebtimotheous/pq-hd-wallet)** `C++` — Noise-stable Hierarchical Deterministic (HD) key derivation for lattice-based public keys (BIP-32 PQC extension) utilizing Secure Enclaves.
+* **[goldilocks-simd-ntt](https://github.com/yebtimotheous/goldilocks-simd-ntt)** `C++/AVX-512` — SIMD-vectorized Goldilocks field $\mathbb{F}_p$ ($p=2^{64}-2^{32}+1$) solver executing accelerated NTTs via Shoup reduction for L2 recursive provers.
+* **[pq-threshold-mempool](https://github.com/yebtimotheous/pq-threshold-mempool)** `C++` — Post-quantum threshold decryption engine (Threshold ML-KEM-768) utilizing noise-flooding and Lagrange interpolation to mitigate front-running (MEV) in validator pools.
+
+---
+
+## Technical Index
+
+* **Languages**: C, C++, Go, Python, Assembly (x86_64 SIMD), Shell.
+* **Systems**: POSIX Memory Management (`mlock`, `mprotect`), OpenMP, OpenSSL EVP, libp2p, Go Worker Pools.
+* **Primitives**: ML-KEM-768, ML-DSA-65, ECDSA P-256/SECP256r1, negacyclic NTT, Goldilocks.
