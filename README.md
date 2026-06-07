@@ -1,7 +1,7 @@
 # Yeb Timotheous
 
 **Post-Quantum Cryptographic Engineer & Distributed Systems Developer**
-*Remote | yeb.timotheous@proton.me | Reddit: [u/yebtimothy](https://www.reddit.com/user/yebtimothy)*
+*Remote | yeb.timotheous@proton.me | Reddit: [u/yebtimothy](https://www.reddit.com/user/yeb_timotheous)*
 
 Specializing in low-level implementations of NIST PQC standards (FIPS 203/204), SIMD-accelerated zero-knowledge provers, and consensus state execution engines.
 
