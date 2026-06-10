@@ -11,6 +11,7 @@ Specializing in low-level implementations of NIST PQC standards (FIPS 203/204), 
 
 ### Post-Quantum & Cryptographic Engineering
 * **[pq-dilithium-c](https://github.com/yebtimothy/pq-dilithium-c)** `C` — High-performance C implementation of the NIST ML-DSA (Dilithium) signature scheme optimized for execution speed.
+* **[pq-pow-dilithium](https://github.com/yebtimothy/pq-pow-dilithium)** `C` — Authenticated post-quantum proof-of-work where ML-DSA-65 signing is fused with a tunable hash difficulty target (built on `pq-dilithium-c`).
 * **[pqc-rpc-proxy](https://github.com/yebtimothy/pqc-rpc-proxy)** `Go` — Hybrid post-quantum TLS proxy securing validator JSON-RPC connections using native ML-KEM-768/X25519 key agreements.
 * **[hybrid-hsm-enclave](https://github.com/yebtimothy/hybrid-hsm-enclave)** `C++` — HSM wallet enclave simulator using `mlock` page locking, guard pages (`mprotect`), and constant-time hybrid ECDSA/ML-DSA signature verification.
 * **[bash-pqc-keygen](https://github.com/yebtimothy/bash-pqc-keygen)** `Go/Shell` — Automated local PQC key generation and root certificate authority (CA) utility suite.
