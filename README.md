@@ -1,4 +1,4 @@
-# Yeb Timotheous
+# Yeboah Timothy
 
 **Post-Quantum Cryptographic Engineer & Distributed Systems Developer**
 *Remote | yeb.timotheous@proton.me | Reddit: [u/yeb_timotheous](https://www.reddit.com/user/yeb_timotheous)*
